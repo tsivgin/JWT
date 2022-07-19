@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.API", "JWT.API\JWT.API.csproj", "{F9A7F953-3D23-4522-B258-8FA33CCF5A9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWT.API", "JWT.API\JWT.API.csproj", "{F9A7F953-3D23-4522-B258-8FA33CCF5A9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.Core", "JWT.Core\JWT.Core.csproj", "{7A7765FF-C843-4895-AA47-A7CB988E53E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.Data", "Data\JWT.Data.csproj", "{34C33868-8436-4512-8BF0-E44A051F8847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.BL", "JWT.BL\JWT.BL.csproj", "{5B2513A0-7373-4105-850E-7EDB613CDF46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{F9A7F953-3D23-4522-B258-8FA33CCF5A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9A7F953-3D23-4522-B258-8FA33CCF5A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9A7F953-3D23-4522-B258-8FA33CCF5A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7765FF-C843-4895-AA47-A7CB988E53E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7765FF-C843-4895-AA47-A7CB988E53E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7765FF-C843-4895-AA47-A7CB988E53E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7765FF-C843-4895-AA47-A7CB988E53E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C33868-8436-4512-8BF0-E44A051F8847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C33868-8436-4512-8BF0-E44A051F8847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C33868-8436-4512-8BF0-E44A051F8847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C33868-8436-4512-8BF0-E44A051F8847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2513A0-7373-4105-850E-7EDB613CDF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2513A0-7373-4105-850E-7EDB613CDF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2513A0-7373-4105-850E-7EDB613CDF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2513A0-7373-4105-850E-7EDB613CDF46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
